@@ -251,7 +251,7 @@ Main Components
                         left: 0;
                         height: 100%;
                         width: 100%;
-                        background-image: url(../img/Gucci_Guilty_Perfume_hd.jpg);
+                        background-repeat: no-repeat;
                         visibility: hidden;
                         -webkit-transition: visibility 0s 0.7s;
                         -moz-transition: visibility 0s 0.7s;
@@ -263,6 +263,7 @@ Main Components
                         overflow-y: auto;
                         -webkit-overflow-scrolling: touch;
                         padding: 40px 5% 40px calc(5% + 80px);
+                        background-color: rgba(0, 0, 0, 0.56)
                         /* Force Hardware Acceleration in WebKit */
                         -webkit-transform: translateZ(0);
                         -moz-transform: translateZ(0);
