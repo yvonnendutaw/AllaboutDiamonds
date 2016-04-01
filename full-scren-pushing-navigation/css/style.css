@@ -23,7 +23,7 @@ Primary style
                         font-family: "Open Sans", sans-serif;
                         color: #243040;
                         background-image: url(../img/Perfume%20Bottles_HD.jpg);
-                        s background-repeat: no-repeat;
+                        background-repeat: no-repeat;
                     }
                     body,
                     html {
@@ -82,7 +82,6 @@ Main Components
                         max-width: 450px;
                         margin: 0 auto;
                         line-height: 1.6;
-                        background-color: rgba(2, 0, 0, 0.45);
                         border-radius: 5px;
                     }
                     .navigation-is-open main {
@@ -110,7 +109,7 @@ Main Components
                         top: 20px;
                         height: 54px;
                         width: 54px;
-                        background-color: #243040;
+                        background-color: rgba(4, 7, 11, 0.63);
                         border-radius: 50%;
                         /* image replacement */
                         overflow: hidden;
@@ -323,6 +322,7 @@ Main Components
                     }
                     .cd-nav .cd-primary-nav {
                         margin-top: 60px;
+                        display: inline-block;
                     }
                     .cd-nav .cd-primary-nav li {
                         margin: 1.6em 0;
@@ -335,9 +335,11 @@ Main Components
                     }
                     .cd-nav .cd-primary-nav a.selected {
                         color: #ffffff;
+                        visibility: visible;
                     }
                     .no-touch .cd-nav .cd-primary-nav a:hover {
-                        color: #ffffff;
+                        color: #000000;
+                        border: solid 1px;
                     }
                     .cd-nav .cd-contact-info {
                         margin-top: 80px;
@@ -415,4 +417,10 @@ Main Components
                         -ms-transform: translateX(0);
                         -o-transform: translateX(0);
                         transform: translateX(0);
+                    }
+                    span {
+                        color: white;
+                    }
+                    cd-half block {
+                        background-color: rgba(13, 2, 2, 0.76)
                     }
