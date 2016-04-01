@@ -20,8 +20,10 @@ Primary style
                     }
                     body {
                         font-size: 1.6rem;
-                        font-family: "Open Sans", sans-serif;
-                        color: #243040;
+                        font-family: 'Pacifico', cursive;
+                        font-size: 100%;
+                        ;
+                        color: rgba(36, 48, 64, 0);
                         background-image: url(../img/Perfume%20Bottles_HD.jpg);
                         background-repeat: no-repeat;
                     }
@@ -70,19 +72,22 @@ Main Components
                         text-align: center;
                     }
                     main h1 {
+                        top: 30px;
                         font-size: 2.6rem;
                         margin-bottom: 1em;
                         display: block;
                         color: white;
+                        font-family: 'Pacifico', cursive;
                     }
                     main p {
                         display: block;
-                        font-family: "Merriweather", serif;
-                        color: #f4f4f4;
+                        font-family: "Merriweather", cursive;
+                        color: #ffffff;
                         max-width: 450px;
                         margin: 0 auto;
+                        height: 10vh;
                         line-height: 1.6;
-                        border-radius: 5px;
+                        background-color: rgba(0, 0, 0, 0.46) border-radius: 5px;
                     }
                     .navigation-is-open main {
                         -webkit-transform: translateX(100%);
@@ -93,7 +98,7 @@ Main Components
                     }
                     @media only screen and (min-width: 768px) {
                         main {
-                            padding: 250px 10%;
+                            padding: 150px 10%;
                         }
                         main h1 {
                             font-size: 3.6rem;
@@ -340,6 +345,7 @@ Main Components
                     .no-touch .cd-nav .cd-primary-nav a:hover {
                         color: #000000;
                         border: solid 1px;
+                        background-color: white;
                     }
                     .cd-nav .cd-contact-info {
                         margin-top: 80px;
@@ -425,6 +431,7 @@ Main Components
                         background-color: rgba(13, 2, 2, 0.76)
                     }
                     table {
+                        width: 30%;
                         background-color: rgba(240, 248, 255, 0);
                     }
                     td {
@@ -434,5 +441,15 @@ Main Components
                         background-color: rgba(240, 248, 255, 0)
                     }
                     frame {
+                        padding: 10px;
+                        float: left;
+                    }
+                    location {
+                        width: 50%;
                         float: right;
+                    }
+                    #about {
+                        background-color: rgba(250, 250, 250, 0.15);
+                        width: 100%;
+                        height: 100%;
                     }
