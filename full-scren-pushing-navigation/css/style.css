@@ -447,7 +447,7 @@ Main Components
                         color: white;
                     }
                     cd-half block {
-                        background-color: rgba(13, 2, 2, 0.76)
+                        background-color: rgba(13, 2, 2, 0.76);
                     }
                     table {
                         width: 30%;
@@ -473,12 +473,24 @@ Main Components
                         float: right;
                     }
                     #products {
-                        margin-top: 20vh;
-                        background-color: rgba(250, 250, 250, 0.15);
+                        background-color: rgb(250, 250, 250);
                         width: 100%;
                         height: 100%;
                     }
                     footer {
                         background-color: rgba(0, 0, 0, 0.65);
                         height: 100px;
+                    }
+                    img:hover {
+                        display: block;
+                        border: solid 4px transparent;
+                    }
+                    #icons {
+                        display: block;
+                        padding: 20px;
+                        float: right;
+                    }
+                    i:hover {
+                        border: solid 1px;
+                        color: white;
                     }
