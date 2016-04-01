@@ -433,22 +433,25 @@ Main Components
                     table {
                         width: 30%;
                         background-color: rgba(240, 248, 255, 0);
+                        align-items: center;
+                        margin: auto;
                     }
                     td {
                         border-spacing: 200px;
                         color: transparent;
                         border: solid 30px;
-                        background-color: rgba(240, 248, 255, 0)
+                        background-color: rgba(240, 248, 255, 0);
+                        align-items: center;
                     }
                     frame {
                         padding: 10px;
                         float: left;
                     }
-                    location {
+                    #location {
                         width: 50%;
                         float: right;
                     }
-                    #about {
+                    #products {
                         background-color: rgba(250, 250, 250, 0.15);
                         width: 100%;
                         height: 100%;
