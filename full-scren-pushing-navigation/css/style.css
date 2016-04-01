@@ -22,10 +22,10 @@ Primary style
                         font-size: 1.6rem;
                         font-family: 'Pacifico', cursive;
                         font-size: 100%;
-                        ;
                         color: rgba(36, 48, 64, 0);
                         background-image: url(../img/Perfume%20Bottles_HD.jpg);
                         background-repeat: no-repeat;
+                        height: 70%;
                     }
                     body,
                     html {
@@ -35,6 +35,23 @@ Primary style
                     a {
                         color: #9cb3a8;
                         text-decoration: none;
+                    }
+                    /* ----HEADER----*/
+
+                    header,
+                    h1 {
+                        background-color: rgba(0, 0, 0, 0.63);
+                        height: 100px;
+                        color: white;
+                        font-size: 2.6rem;
+                        margin-bottom: 1em;
+                        display: block;
+                        font-family: 'Pacifico', cursive;
+                        text-align: center;
+                    }
+                    h1 {
+                        display: block;
+                        padding: 40px;
                     }
                     /* --------------------------------
 
@@ -78,6 +95,7 @@ Main Components
                         display: block;
                         color: white;
                         font-family: 'Pacifico', cursive;
+                        padding: 30px;
                     }
                     main p {
                         display: block;
@@ -249,6 +267,7 @@ Main Components
                         }
                     }
                     .cd-nav {
+                        margin-top: 50px;
                         position: fixed;
                         z-index: 1;
                         top: 0;
@@ -312,7 +331,7 @@ Main Components
                         margin-bottom: 1.7em;
                         font-size: 1.3rem;
                         font-weight: 800;
-                        color: #080b0f;
+                        color: #1367d8;
                         text-transform: uppercase;
                     }
                     .cd-nav h2::after {
@@ -443,16 +462,23 @@ Main Components
                         background-color: rgba(240, 248, 255, 0);
                         align-items: center;
                     }
-                    frame {
+                    #contact {
+                        width: 100%;
+                    }
+                    #frame {
                         padding: 10px;
                         float: left;
                     }
                     #location {
-                        width: 50%;
                         float: right;
                     }
                     #products {
+                        margin-top: 20vh;
                         background-color: rgba(250, 250, 250, 0.15);
                         width: 100%;
                         height: 100%;
+                    }
+                    footer {
+                        background-color: rgba(0, 0, 0, 0.65);
+                        height: 100px;
                     }
