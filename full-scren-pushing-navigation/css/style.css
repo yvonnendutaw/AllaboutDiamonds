@@ -329,7 +329,7 @@ Main Components
                         margin-bottom: 1.7em;
                         font-size: 1.3rem;
                         font-weight: 800;
-                        color: #1367d8;
+                        color: white;
                         text-transform: uppercase;
                     }
                     .cd-nav h2::after {
@@ -346,16 +346,17 @@ Main Components
                     .cd-nav .cd-primary-nav {
                         margin-top: 60px;
                         display: inline-block;
-                        color: #1367d8;
+                        color: white;
                     }
                     .cd-nav .cd-primary-nav li {
                         margin: 1.6em 0;
-                        color: #1367d8;
+                        color: white;
                     }
                     .cd-nav .cd-primary-nav a {
                         font-family: "Merriweather", serif;
                         font-size: 2.4rem;
-                        color: #1367d8;
+                        color: white;
+                        ;
                         display: inline-block;
                     }
                     .cd-nav .cd-primary-nav a.selected {
@@ -374,18 +375,16 @@ Main Components
                     }
                     .cd-nav .cd-contact-info li {
                         font-family: "Merriweather", serif;
-                        margin-bottom: 1.5em;
-                        line-height: 1.2;
-                        color: #1367d8;
+                        color: white;
                         font-size: 40px;
                     }
                     .cd-nav .cd-contact-info a {
-                        color: #1367d8;
+                        color: white;
                         font-size: 40px;
                     }
                     .cd-nav .cd-contact-info span {
                         display: block;
-                        color: #1367d8;
+                        color: white;
                     }
                     .cd-nav .cd-contact-info li,
                     .cd-nav .cd-contact-info a,
@@ -419,7 +418,6 @@ Main Components
                             font-size: 4.4rem;
                         }
                         .cd-nav .cd-contact-info {
-                            margin-top: 120px;
                             text-align: right;
                         }
                         .cd-nav .cd-contact-info li {
@@ -457,7 +455,7 @@ Main Components
                     }
                     table {
                         width: 80%;
-                        background-color: rgba(240, 248, 255, 0);
+                        background-image: url(../img/Perfume%20Bottles_HD.jpg);
                         align-items: center;
                         margin: auto;
                     }
@@ -496,12 +494,6 @@ Main Components
                         display: block;
                         border: solid 4px transparent;
                     }
-                    #icons {
-                        display: block;
-                        padding: 20px;
-                        float: right;
-                        color: rgba(255, 255, 255, 0.78);
-                    }
                     #icons-icons {
                         float: left;
                     }
@@ -522,5 +514,12 @@ Main Components
                         align-content: center;
                     }
                     #contact-footer {
+                        display: inline-block;
+                        border: solid 1px white;
                         float: right;
+                        color: white;
+                        padding: 4px;
+                    }
+                    #contact-footer a:hover {
+                        color: white;
                     }
