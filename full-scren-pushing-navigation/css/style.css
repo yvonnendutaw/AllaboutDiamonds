@@ -20,7 +20,7 @@ Primary style
                     }
                     body {
                         font-size: 1.6rem;
-                        font-family: 'Pacifico', cursive;
+                        font-family: 'Slabo 27px', serif;
                         font-size: 100%;
                         color: rgba(36, 48, 64, 0);
                         background-image: url(../img/Perfume%20Bottles_HD.jpg);
@@ -45,7 +45,6 @@ Primary style
                         color: white;
                         font-size: 2.6rem;
                         display: block;
-                        font-family: 'Pacifico', cursive;
                         text-align: center;
                     }
                     h1 {
@@ -501,8 +500,27 @@ Main Components
                         display: block;
                         padding: 20px;
                         float: right;
+                        color: rgba(255, 255, 255, 0.78);
+                    }
+                    #icons-icons {
+                        float: left;
                     }
                     i:hover {
                         border: solid 1px;
                         color: white;
+                    }
+                    #head {
+                        padding: 20px;
+                    }
+                    #head h1 {
+                        text-align: center;
+                        margin: auto;
+                        padding: auto;
+                    }
+                    small {
+                        font-size: 20px;
+                        align-content: center;
+                    }
+                    #contact-footer {
+                        float: right;
                     }
