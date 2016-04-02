@@ -265,7 +265,7 @@ Main Components
                         }
                     }
                     .cd-nav {
-                        margin-top: 50px;
+                        margin-top: 100px;
                         position: fixed;
                         z-index: 1;
                         top: 0;
@@ -342,18 +342,21 @@ Main Components
                         height: 1px;
                         width: 60px;
                         background-color: currentColor;
+                        ;
                     }
                     .cd-nav .cd-primary-nav {
                         margin-top: 60px;
                         display: inline-block;
+                        color: #1367d8;
                     }
                     .cd-nav .cd-primary-nav li {
                         margin: 1.6em 0;
+                        color: #1367d8;
                     }
                     .cd-nav .cd-primary-nav a {
                         font-family: "Merriweather", serif;
                         font-size: 2.4rem;
-                        color: rgba(255, 255, 255, 0.35);
+                        color: #1367d8;
                         display: inline-block;
                     }
                     .cd-nav .cd-primary-nav a.selected {
@@ -366,19 +369,24 @@ Main Components
                         background-color: white;
                     }
                     .cd-nav .cd-contact-info {
-                        margin-top: 80px;
+                        margin: 0px;
+                        padding: 0px;
+                        ]
                     }
                     .cd-nav .cd-contact-info li {
                         font-family: "Merriweather", serif;
                         margin-bottom: 1.5em;
                         line-height: 1.2;
-                        color: rgba(255, 255, 255, 0.3);
+                        color: #1367d8;
+                        font-size: 40px;
                     }
                     .cd-nav .cd-contact-info a {
-                        color: #ffffff;
+                        color: #1367d8;
+                        font-size: 40px;
                     }
                     .cd-nav .cd-contact-info span {
                         display: block;
+                        color: #1367d8;
                     }
                     .cd-nav .cd-contact-info li,
                     .cd-nav .cd-contact-info a,
