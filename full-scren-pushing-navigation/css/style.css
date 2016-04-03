@@ -25,7 +25,7 @@ Primary style
                         color: rgba(36, 48, 64, 0);
                         background-image: url(../img/Perfume%20Bottles_HD.jpg);
                         background-repeat: no-repeat;
-                        height: 70%;
+                        height: 100vh;
                     }
                     body,
                     html {
@@ -62,11 +62,10 @@ Main Components
                         position: relative;
                         z-index: 2;
                         /* fix bug on iOS */
-                        height: 100vh;
+                        height: 75vh;
                         overflow-y: auto;
                         -webkit-overflow-scrolling: touch;
                         padding: 200px 5%;
-                        background-color: #9cb3a8
                         /* Force Hardware Acceleration in WebKit */
                         -webkit-transform: translateZ(0);
                         -moz-transform: translateZ(0);
@@ -81,28 +80,29 @@ Main Components
                         -webkit-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
                         -moz-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
                         transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
-                        background-color: rgba(0, 0, 0, 0.4)
+                        background-color: rgba(0, 0, 0, 0.72);
+                        font-weight: 900;
                     }
                     main h1,
                     main p {
                         text-align: center;
                     }
                     main h1 {
-                        top: 30px;
                         font-size: 2.6rem;
-                        margin-bottom: 1em;
                         display: block;
                         color: white;
                         font-family: 'Pacifico', cursive;
                     }
                     main p {
+                        padding: 0;
                         display: block;
                         color: #ffffff;
                         max-width: 450px;
                         margin: 0 auto;
                         height: 10vh;
-                        line-height: 1.6;
+                        line-height: 0.5;
                         background-color: rgba(0, 0, 0, 0.46) border-radius: 5px;
+                        align-content: center;
                     }
                     .navigation-is-open main {
                         -webkit-transform: translateX(100%);
