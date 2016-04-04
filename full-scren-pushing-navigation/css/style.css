@@ -65,7 +65,7 @@ Main Components
                         height: 75vh;
                         overflow-y: auto;
                         -webkit-overflow-scrolling: touch;
-                        padding: 200px 5%;
+                        padding: 20px 5%;
                         /* Force Hardware Acceleration in WebKit */
                         -webkit-transform: translateZ(0);
                         -moz-transform: translateZ(0);
@@ -81,14 +81,13 @@ Main Components
                         -moz-transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
                         transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
                         background-color: rgba(0, 0, 0, 0.72);
-                        font-weight: 900;
                     }
                     main h1,
                     main p {
                         text-align: center;
                     }
                     main h1 {
-                        font-size: 2.6rem;
+                        font-size: 2.5rem;
                         display: block;
                         color: white;
                         font-family: 'Pacifico', cursive;
@@ -100,7 +99,6 @@ Main Components
                         max-width: 450px;
                         margin: 0 auto;
                         height: 10vh;
-                        line-height: 0.5;
                         background-color: rgba(0, 0, 0, 0.46) border-radius: 5px;
                         align-content: center;
                     }
@@ -113,13 +111,13 @@ Main Components
                     }
                     @media only screen and (min-width: 768px) {
                         main {
-                            padding: 150px 10%;
+                            padding: 20px 10%;
                         }
                         main h1 {
                             font-size: 3.6rem;
                         }
                         main p {
-                            font-size: 2rem;
+                            font-size: 4rem;
                         }
                     }
                     .cd-nav-trigger {
