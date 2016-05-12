@@ -1,0 +1,10 @@
+.row.row {
+    max-width: 100%;
+    padding: 0em;
+    margin: 0em;
+}
+.landing {
+    background-image: url(../img/slide-akoya-secret-paris-bleu.jpg);
+    max-width: 100%;
+    height: 80vh;
+}
