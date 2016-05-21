@@ -1,10 +1,88 @@
-.row.row {
-    max-width: 100%;
-    padding: 0em;
-    margin: 0em;
-}
-.landing {
-    background-image: url(../img/slide-akoya-secret-paris-bleu.jpg);
-    max-width: 100%;
-    height: 80vh;
-}
+    .row.row {
+        max-width: 100%;
+        padding: 0em;
+        margin: 0em;
+    }
+    body,
+    h1,
+    h2,
+    h3 {
+        font-family: 'Geo', sans-serif;
+    }
+    /*nav bar*/
+
+    .menu {
+        height: 10vh;
+        font-size: 25px;
+        color: #A1F14F;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        margin: 0 0;
+        width: 100%;
+        background-color: rgba(245, 245, 245, 0.34);
+    }
+    .menu li a {
+        color: #A1F14F;
+        padding: 0 40%;
+        margin-top: 6%;
+    }
+    .menu li a:hover {
+        color: whitesmoke;
+        padding: 0 40%;
+        margin-top: 6%;
+    }
+    /*landing*/
+
+    .landing {
+        background-image: url(/img/amazing-kawasaki-wallpaper-1920x1240.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        max-width: 100%;
+        height: 100vh;
+    }
+    .text {
+        color: #A1F14F;
+        margin-top: 15%;
+        margin-left: 5%;
+        padding: 4%;
+        height: 50vh;
+        font-size: 40px;
+        background-color: rgba(217, 204, 204, 0.39);
+    }
+    .about {
+        background-image: url(/img/kawasaki-motorcycling-1600x1200.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+        -o-transition: all 1ss ease;
+    }
+    .about:hover {
+        transform: scale(1.02);
+        -moz-transform: scale(1.02);
+        -webkit-transform: scale(1.02);
+        -o-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+        /* IE 9 */
+        -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+        /* IE8 */
+        filter: progid: DXImageTransform.Microsoft.Matrix(M11=1.1, M12=0, M21=0, M22=1.1, SizingMethod='auto expand');
+    }
+    .text-box {
+        margin-top: 100px;
+        font-size: 30px;
+        color: black;
+        background-color: rgba(217, 204, 204, 0.39);
+        text-align: center;
+        position: relative;
+    }
+    hr {
+        width: 70%;
+    }
+    .portfolio {
+        height: 100vh;
+    }
