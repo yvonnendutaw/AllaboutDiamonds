@@ -1,4 +1,3 @@
-# Colognes
+#Kawasaki Ninja
 
-
-Fragrances Website that uses the foundation web framework and explores the use of styles from codrops.
+This website has the foundation framework integrated.
