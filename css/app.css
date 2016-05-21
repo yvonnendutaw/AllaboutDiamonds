@@ -27,6 +27,7 @@ h3 {
     margin: 0 0;
     width: 100%;
     background: url(http://img6.uploadhouse.com/fileuploads/17737/17737075bdad5cfa9423bb2c3c2beee695c72bb8.jpg);
+    float: right;
 }
 .menu li a {
     color: #A1F14F;
@@ -52,10 +53,10 @@ h3 {
     color: #A1F14F;
     margin-top: 15%;
     margin-left: 5%;
-    padding: 4%;
+    padding: 5% 4%;
     height: 50vh;
     font-size: 40px;
-    background-color: rgba(217, 204, 204, 0.39);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .about {
     background-image: url(/img/kawasaki-motorcycling-1600x1200.jpg);
@@ -159,40 +160,6 @@ hr {
     width: 70%;
     height: 30px;
     padding: 10px 10px 10px 10px;
-    margin: ;
-    margin-left: 98px;
-    background: #222222;
-    color: #A1F14F;
-    font: 14px/16px'Bree Serif', Georgia, serif;
-}
-#contact #form input.submit {
-    cursor: pointer;
-    width: 70%;
-    height: 30px;
-    padding: 10px 10px 10px 10px;
-    margin: ;
-    margin-left: 98px;
-    background: #222222;
-    color: #A1F14F;
-    font: 14px/16px'Bree Serif', Georgia, serif;
-}
-#contact #form input.submit {
-    cursor: pointer;
-    width: 70%;
-    height: 30px;
-    padding: 10px 10px 10px 10px;
-    margin: ;
-    margin-left: 98px;
-    background: #222222;
-    color: #A1F14F;
-    font: 14px/16px'Bree Serif', Georgia, serif;
-}
-#contact #form input.submit {
-    cursor: pointer;
-    width: 70%;
-    height: 30px;
-    padding: 10px 10px 10px 10px;
-    margin: ;
     margin-left: 98px;
     background: #222222;
     color: #A1F14F;
@@ -217,3 +184,9 @@ hr {
 
 /*footer
 */
+
+footer {
+    height: 5vh;
+    background-color: dimgrey;
+    color: whitesmoke;
+}
