@@ -22,23 +22,24 @@ h3 {
 
 .nav {
 	height: auto;
-	font-size: 25px;
+	font-size: 28px;
 	color: #A1F14F;
 	position: fixed;
 	top: 0px;
-	left: 0px;
+	margin-left: 25%;
 	margin: 0 0;
 	width: 100%;
 	background-color: rgba(11, 6, 6, 0.81);
 }
 
+.nav ul {}
+
 .nav li {
-	margin-top: 1%;
-	margin-bottom: 1%;
-	padding-left: 9%;
-	padding-right: 9%;
 	list-style: none;
 	display: inline-block;
+	margin-left: 6%;
+	margin-top: 1%;
+	margin-bottom: 1%:
 }
 
 .nav li a {
@@ -47,11 +48,7 @@ h3 {
 
 .nav li a:hover {
 	color: whitesmoke;
-	padding: 0 40%;
-	margin-top: 6%;
 }
-
-.nav ul {}
 
 
 /*landing*/
@@ -127,38 +124,50 @@ hr {
 .image {
 	padding: 3% 3%;
 	border: dotted 1px dimgrey;
-	border-radius: 6%;
+	border-radius: 3%;
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-o-transition: all 1ss ease;
 }
 
+.image:hover {
+	transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-webkit-transform: scale(1.02);
+	-o-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	/* IE 9 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
+	/* IE8 */
+	filter: progid: DXImageTransform.Microsoft.Matrix(M11=1.1, M12=0, M21=0, M22=1.1, SizingMethod='auto expand');
+}
+
+
+}
 .portfolio {
 	height: auto;
 }
-
 .words {
 	padding: 5%;
 	margin-top: 6%;
 }
 
-
 /*contact*/
-
 .content {
 	margin-top: 3%;
 }
-
 #contact {
 	overflow: auto;
 	background: url(http://img6.uploadhouse.com/fileuploads/17737/17737075bdad5cfa9423bb2c3c2beee695c72bb8.jpg);
 }
-
 #contact #form {
 	width: auto;
 }
-
 #contact #form h2 {
 	font: 48px 'Bree Serif', Georgia, serif;
 }
-
 #contact #form span {
 	display: block;
 	float: left;
@@ -167,7 +176,6 @@ hr {
 	font: 14px/16px'Bree Serif', Georgia, serif;
 	color: #A1F14F;
 }
-
 #contact #form input {
 	width: 70%;
 	border: 0px;
@@ -176,7 +184,6 @@ hr {
 	font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
 	margin-bottom: 10px;
 }
-
 #contact #form textarea {
 	width: 70%;
 	height: 140px;
@@ -185,23 +192,18 @@ hr {
 	color: #A1F14F;
 	resize: none;
 }
-
 #contact #form input.name {
 	background: #222222 url(http://img7.uploadhouse.com/fileuploads/17737/177370145f09fe433945815665aa214f80dbc6af.png) no-repeat 10px 8px;
 }
-
 #contact #form input.email {
 	background: #222222 url(http://img6.uploadhouse.com/fileuploads/17737/177370138cc63992182149e9befabff3eafa6d23.png) no-repeat 10px 9px;
 }
-
 #contact #form input.captcha {
 	background: #222222 url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat 10px 9px;
 }
-
 #contact #form textarea.message {
 	background: #222222 url(http://img3.uploadhouse.com/fileuploads/17737/1773701229ed8c2f465a8274623ca8976adaf196.png) no-repeat 10px 8px;
 }
-
 #contact #form input.submit {
 	cursor: pointer;
 	width: 70%;
@@ -212,12 +214,10 @@ hr {
 	color: #A1F14F;
 	font: 14px/16px'Bree Serif', Georgia, serif;
 }
-
 #contact #captcha span {
 	width: 44px;
 	color: #A1F14F;
 }
-
 #contact #captcha input {
 	background: url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat scroll 0 0 transparent;
 	margin: 5px 0 0;
@@ -227,15 +227,12 @@ hr {
 	width: 15px;
 	color: #A1F14F;
 }
-
 #contact h2 {
 	color: #A1F14F;
 }
 
-
 /*footer
 */
-
 footer {
 	height: 5vh;
 	background-color: dimgrey;
