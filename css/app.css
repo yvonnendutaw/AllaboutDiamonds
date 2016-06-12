@@ -89,23 +89,6 @@ h3 {
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
-	transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	-webkit-transition: all 1s ease;
-	-o-transition: all 1ss ease;
-}
-
-.about:hover {
-	transform: scale(1.02);
-	-moz-transform: scale(1.02);
-	-webkit-transform: scale(1.02);
-	-o-transform: scale(1.02);
-	-ms-transform: scale(1.02);
-	/* IE 9 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')";
-	/* IE8 */
-	filter: progid: DXImageTransform.Microsoft.Matrix(M11=1.1, M12=0, M21=0, M22=1.1, SizingMethod='auto expand');
 }
 
 .text-box {
@@ -237,4 +220,7 @@ footer {
 	height: 5vh;
 	background-color: dimgrey;
 	color: whitesmoke;
+}
+.map {
+	padding: 3%;
 }
