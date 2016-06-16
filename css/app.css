@@ -23,7 +23,7 @@ h3 {
 .nav {
 	height: auto;
 	font-size: 28px;
-	color: #A1F14F;
+	color: #0ff50f;
 	position: fixed;
 	top: 0px;
 	margin-left: 25%;
@@ -43,7 +43,7 @@ h3 {
 }
 
 .nav li a {
-	color: #A1F14F;
+	color: #0ff50f;
 }
 
 .nav li a:hover {
@@ -75,13 +75,13 @@ h3 {
 }
 
 .text {
-	color: #A1F14F;
+	color: #0ff50f;
 	margin-top: 10%;
 	margin-left: 20%;
 	padding: 5% 4%;
 	height: auto;
 	font-size: 40px;
-	background-color: rgba(3, 0, 0, 0.74);
+	/*	background-color: rgba(3, 0, 0, 0.74);*/
 	margin-bottom: 20%;
 }
 
@@ -94,9 +94,9 @@ h3 {
 
 .text-box {
 	margin-top: 15%;
-	font-size: 30px;
+	font-size: 26px;
 	color: #0ff50f;
-	background-color: rgba(3, 0, 0, 0.74);
+	/*	background-color: rgba(3, 0, 0, 0.74);*/
 	text-align: center;
 	position: relative;
 }
@@ -141,13 +141,16 @@ hr {
 /*contact*/
 .content {
 	margin-top: 3%;
+	color: #0ff50f;
 }
+.content h2 {}
 #contact {
 	overflow: auto;
 	background: url(http://img6.uploadhouse.com/fileuploads/17737/17737075bdad5cfa9423bb2c3c2beee695c72bb8.jpg);
 }
 #contact #form {
 	width: auto;
+	color: #0ff50f;
 }
 #contact #form h2 {
 	font: 48px 'Bree Serif', Georgia, serif;
@@ -158,12 +161,12 @@ hr {
 	width: 100px;
 	padding-top: 10px;
 	font: 14px/16px'Bree Serif', Georgia, serif;
-	color: #A1F14F;
+	color: #0ff50f;
 }
 #contact #form input {
 	width: 70%;
 	border: 0px;
-	color: #A1F14F;
+	color: #0ff50f;
 	padding: 10px 10px 10px 30px;
 	font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
 	margin-bottom: 10px;
@@ -173,7 +176,7 @@ hr {
 	height: 140px;
 	padding: 10px 10px 10px 30px;
 	font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
-	color: #A1F14F;
+	color: #0ff50f;
 	resize: none;
 }
 #contact #form input.name {
@@ -195,12 +198,11 @@ hr {
 	padding: 10px 10px 10px 10px;
 	margin-left: 98px;
 	background: #222222;
-	color: #A1F14F;
 	font: 14px/16px'Bree Serif', Georgia, serif;
 }
 #contact #captcha span {
 	width: 44px;
-	color: #A1F14F;
+	color: #0ff50f;
 }
 #contact #captcha input {
 	background: url(http://img3.uploadhouse.com/fileuploads/17737/17737011310213e71805ecf2292144cbbecf42ad.png) no-repeat scroll 0 0 transparent;
@@ -209,10 +211,13 @@ hr {
 	border: medium none;
 	cursor: pointer;
 	width: 15px;
-	color: #A1F14F;
+	color: #0ff50f;
 }
 #contact h2 {
-	color: #A1F14F;
+	color: #0ff50f;
+}
+.submit {
+	color: #0ff50f;
 }
 
 /*footer
@@ -223,18 +228,14 @@ footer {
 	color: whitesmoke;
 }
 .map {
-	padding: 3%;
-}
-.map {
 	overflow: hidden;
-	padding-bottom: 56.25%;
-	position: relative;
-	height: 0;
+	/*	position: absolute;*/
+	
+	padding-top: 1%;
+	height: 100%;
 }
 .map iframe {
 	left: 0;
-	top: 0;
-	height: 100%;
 	width: 100%;
-	position: absolute;
+	/*	position: absolute;*/
 }
