@@ -54,7 +54,7 @@ h3 {
 /*landing*/
 
 .landing {
-	background-image: url(https://github.com/yvonnendutaw/kawasaki-ninja/blob/87924d09f98e17143ef0d158791c323459ed5acf/img/amazing-kawasaki-wallpaper-1920x1240.jpg);
+	background-image: url(https://github.com/yvonnendutaw/kawasaki-ninja/blob/gh-pages/img/amazing-kawasaki-wallpaper-1920x1240.jpg);
 	background-size: contain;
 	max-width: 100%;
 	height: auto;
@@ -86,7 +86,7 @@ h3 {
 }
 
 .about {
-	background-image: url(/img/Kawasaki-KZ550-8-1600x1066.jpeg);
+	background-image: url(https://github.com/yvonnendutaw/kawasaki-ninja/blob/gh-pages/img/Kawasaki-KZ550-8-1600x1066.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	height: 100vh;
